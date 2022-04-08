@@ -54,5 +54,7 @@ export class MenuItems {
    getAll(): Menu[] {
       return MENUITEMS;
    }
-    
+   add(menu: any) {
+      MENUITEMS.push(menu);
+   }
 }
